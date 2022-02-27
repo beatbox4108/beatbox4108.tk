@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <+!+ head +!+>
+    </head>
+    <body>
+        <header class="header"><+!+ header +!+></header> 
+        <nav ><+!+ navigation +!+></nav>
+        <main>
+            <h3><!-- buildertitle --></h3>
+            <details>
+                <summary>詳細</summary>
+                <table style="border:none">
+                    <tr>
+                        <th>Published</th>
+                        <td><!-- builderdate --></td>
+                    </tr>
+                    <tr>
+                        <th>Updated</th>
+                        <td><!-- builderupdatedate --></td>
+                    </tr>
+                </table>
+            </details>
+            <article>
+                <!-- buildertext -->
+            </article>
+        </main>
+        <footer><+!+ footer +!+></footer>
+    </body>
+</html>

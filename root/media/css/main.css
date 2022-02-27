@@ -1,0 +1,73 @@
+.header>.navigation{
+    background: #80c8ff;
+    max-height: 3em;
+    overflow: hidden;
+    display: flex;
+    border: 2px solid #8fddff;
+    border-left: none;
+    background: repeating-linear-gradient(-45deg, #ffffff 0px, #ffffff 5px, #cceeff 5px, #cceeff 10px);
+    vertical-align: middle;
+}
+.header>.navigation>div{
+    border-left: 2px solid #90ddff;
+    border-right: none;
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+.header>.navigation>div a{
+    color: #333333;
+    text-decoration: none;
+}
+a{
+    transition: color 0.5s ease-in-out;
+    color: dodgerblue;
+}
+a:hover{
+    color: #55ff88 !important;
+}
+a:active{
+    color: #ccff33 !important;
+}
+@keyframes details {
+    0% {
+      opacity: 0; /* 透明 */
+      transform: translateY(-10px); /* 上から表示 */
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+details{
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .25em .25em 0;
+    position: relative;
+    background-color: #efefef;
+    transition: width 0.5s;
+    white-space: nowrap;
+}
+details>*:not(summary){
+    animation: 0.5s ease-in-out 0s 1 backwards both;
+}
+details[open]{
+    width: fit-content;
+}
+main>details[open]{
+    width: 50%;
+}
+main>details {
+    margin-left: 70%;
+    opacity: 0.75;
+    width: 25%;
+    overflow: hidden;
+}
+details[open]>*:not(summary){
+    animation: details 0.5s ease-in-out;
+}
+main>details>summary{
+    list-style-type: circle;
+}
+details[open]>summary{
+    border-bottom: 1px solid #aaa;
+}

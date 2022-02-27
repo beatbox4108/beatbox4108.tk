@@ -1,0 +1,49 @@
+<ul>
+    <li>
+        <a href="www.beatbox4108.tk">Home</a>
+     </li>
+     <li>
+        <a href="/about.html">About</a>
+    </li>
+       <li>
+        <a href="/links.html">Links</a>
+    </li>
+    <li>
+        <details>
+            <summary>WebToolBox</summary>
+            <ul>
+                <li>
+                    <a href="wtool.beatbox4108.tk">Home</a>
+                </li>
+                <li>
+                    <a href="wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
+                </li>
+                <li>
+                    <a href="wtool.beatbox4108.tk/textedit.html">Memo</a>
+                </li>
+                <li>
+                    <a href="wtool.beatbox4108.tk/tageraser.html">Home</a>
+                </li>
+            </ol>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>外部リンク</summary>
+            <ul>
+                <li>
+                    <a href="www.github.com/beatbox4108">Github</a>
+                </li>
+                <li>
+                    <a href="beatbox4108.hatenablog.com">はてなブログ</a>
+                </li>
+                <li>
+                    <a href="https://qiita.com/beatbox4108">Qiita</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/beatbox4108">Twitter</a>
+                </li>
+            </ol>
+        </details>
+    </li>
+</ol>

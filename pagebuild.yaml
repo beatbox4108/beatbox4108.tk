@@ -1,0 +1,15 @@
+version: "1.0.1"
+built-data-root-path: "./docs"
+root: "./root"
+temprateroot: "./temprate"
+themeroot: "./theme"
+builderpath: "./WebBuilder"
+site-area: "./docs"
+disable-pattern:
+  - ".*"
+  - "*.hide"
+dateformat: "%m-%d-%y %H:%M"
+pagesettings:
+  page: 
+    theme: "page"
+  
