@@ -40,6 +40,7 @@ a:active{
   }
 details{
     border: 1px solid #aaa;
+    width: inherit;
     border-radius: 4px;
     padding: .25em .25em 0;
     position: relative;
@@ -74,7 +75,7 @@ main>details {
 }
 details[open]>*:not(summary){
     opacity: 1;
-    transform: translateY(0x);
+    transform: translateY(0px);
 }
 main>details>summary{
     list-style-type: circle;
