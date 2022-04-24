@@ -1,3 +1,5 @@
 <div>
+    <div class="inline pc_only pagemode_status">現在PCモードで開いています。</div>
+    <div class="inline mobile_only pagemode_status">現在モバイルモードで開いています。</div><br>
     <small>&copy;2022 beatbox4108.</small>
 </div>

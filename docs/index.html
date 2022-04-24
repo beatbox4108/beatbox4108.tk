@@ -3,20 +3,25 @@
     <head>
         <title>beatbox4108の部屋</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="/media/css/main.css" rel="stylesheet">
 <link href="/media/css/rayout.css" rel="stylesheet">
 <link href="/favicon.ico" rel="icon">
     </head>
     <body>
-        <header class="header"><div class="navigation flex">
+        <header class="header"><input type="checkbox" title="ヘッダーを開く" class="toggle_check" id="header_toggle">
+<label class="toggle_check_label" for="header_toggle"></label>
+
+<div class="navigation flex">
     <div><a href="/index.html">beatbox4108の部屋</a></div>
     <div><a href="/index.html">Home</a></div>
     <div><a href="/about.html">About</a></div>
     <div><a href="/links.html">Links</a></div>
 </div></header> 
-        <nav ><ul>
+        <nav ><input type="checkbox" title="ナビゲーションを開く" class="toggle_check" id="nav_toggle"><label class="toggle_check_label" for="nav_toggle">ナビゲーションを開く</label><br>
+<ul>
     <li>
-        <a href="www.beatbox4108.tk">Home</a>
+        <a href="https://www.beatbox4108.tk">Home</a>
      </li>
      <li>
         <a href="/about.html">About</a>
@@ -29,16 +34,16 @@
             <summary>WebToolBox</summary>
             <ul>
                 <li>
-                    <a href="wtool.beatbox4108.tk">Home</a>
+                    <a href="https://wtool.beatbox4108.tk">Home</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
+                    <a href="https://wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/textedit.html">Memo</a>
+                    <a href="https://wtool.beatbox4108.tk/textedit.html">Memo</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/tageraser.html">Home</a>
+                    <a href="https://wtool.beatbox4108.tk/tageraser.html">Home</a>
                 </li>
             </ol>
         </details>
@@ -48,10 +53,10 @@
             <summary>外部リンク</summary>
             <ul>
                 <li>
-                    <a href="www.github.com/beatbox4108">Github</a>
+                    <a href="https://www.github.com/beatbox4108">Github</a>
                 </li>
                 <li>
-                    <a href="beatbox4108.hatenablog.com">はてなブログ</a>
+                    <a href="https://beatbox4108.hatenablog.com">はてなブログ</a>
                 </li>
                 <li>
                     <a href="https://qiita.com/beatbox4108">Qiita</a>
@@ -79,6 +84,7 @@
                     </tr>
                 </table>
             </details>
+            <noscript class="noscript">&#x26a0; Javascriptを有効化してください。一部の機能は正常に動作しなくなる可能性があります。</noscript>
             <article>
                 <style>#_1{color:#ffcc77;font-size:3em;-webkit-text-stroke: 1px #222;text-stroke: 1px #222;}</style>
 <p>beatbox4108の部屋は、ただの1人の学生の&hellip; まあいろいろ兼ねたページです。<br />
@@ -88,6 +94,8 @@
             </article>
         </main>
         <footer><div>
+    <div class="inline pc_only pagemode_status">現在PCモードで開いています。</div>
+    <div class="inline mobile_only pagemode_status">現在モバイルモードで開いています。</div><br>
     <small>&copy;2022 beatbox4108.</small>
 </div></footer>
     </body>

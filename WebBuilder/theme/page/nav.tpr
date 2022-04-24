@@ -1,6 +1,7 @@
+<input type="checkbox" title="ナビゲーションを開く" class="toggle_check" id="nav_toggle"><label class="toggle_check_label" for="nav_toggle">ナビゲーションを開く</label><br>
 <ul>
     <li>
-        <a href="www.beatbox4108.tk">Home</a>
+        <a href="https://www.beatbox4108.tk">Home</a>
      </li>
      <li>
         <a href="/about.html">About</a>
@@ -13,16 +14,16 @@
             <summary>WebToolBox</summary>
             <ul>
                 <li>
-                    <a href="wtool.beatbox4108.tk">Home</a>
+                    <a href="https://wtool.beatbox4108.tk">Home</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
+                    <a href="https://wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/textedit.html">Memo</a>
+                    <a href="https://wtool.beatbox4108.tk/textedit.html">Memo</a>
                 </li>
                 <li>
-                    <a href="wtool.beatbox4108.tk/tageraser.html">Home</a>
+                    <a href="https://wtool.beatbox4108.tk/tageraser.html">Home</a>
                 </li>
             </ol>
         </details>
@@ -32,10 +33,10 @@
             <summary>外部リンク</summary>
             <ul>
                 <li>
-                    <a href="www.github.com/beatbox4108">Github</a>
+                    <a href="https://www.github.com/beatbox4108">Github</a>
                 </li>
                 <li>
-                    <a href="beatbox4108.hatenablog.com">はてなブログ</a>
+                    <a href="https://beatbox4108.hatenablog.com">はてなブログ</a>
                 </li>
                 <li>
                     <a href="https://qiita.com/beatbox4108">Qiita</a>

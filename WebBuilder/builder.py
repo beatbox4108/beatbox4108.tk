@@ -52,11 +52,11 @@ class builder:
                 if pathlib.Path(f).match(p):is_match=True
             if is_match:continue
             if pathlib.Path(f).match("*.md"):
-                with open(f,"tr")as file:data=file.read()
+                with open(f,"tr",encoding="utf_8")as file:data=file.read()
                 data=page.page(data).build()
                 if output:self.__output(f"Building file... {f}")
                 if output:self.__output(self.__format_progress(all_tasks,complated_tasks),end="\r")
-                with open(((pathlib.Path(self.config["built-data-root-path"])/(pathlib.Path(self.config["root"])/pathlib.Path(f).relative_to("./root")).relative_to("./root")).resolve().with_suffix(".html")),"w")as file:file.write(data)
+                with open(((pathlib.Path(self.config["built-data-root-path"])/(pathlib.Path(self.config["root"])/pathlib.Path(f).relative_to("./root")).relative_to("./root")).resolve().with_suffix(".html")),"w",encoding="utf_8")as file:file.write(data)
             else:
                 if output:self.__output(f"Copying file... {f}")
                 if output:self.__output(self.__format_progress(all_tasks,complated_tasks),end="\r")
