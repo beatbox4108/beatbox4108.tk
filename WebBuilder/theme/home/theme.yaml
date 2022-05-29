@@ -1,0 +1,12 @@
+file: "./home.btpr"
+replacer:
+  text: "<!-- buildertext -->"
+  date: "<!-- builderdate -->"
+  update-date: "<!-- builderupdatedate -->"
+  title: "<!-- buildertitle -->"
+  date_format: "%m-%d-%Y %H:%M"
+pageplace: 
+  header: "../page/header.tpr"
+  footer: "../page/footer.tpr"
+  head: "../page/head.tpr"
+  navigation: "../page/nav.tpr"

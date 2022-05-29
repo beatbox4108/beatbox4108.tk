@@ -12,4 +12,6 @@ dateformat: "%m-%d-%y %H:%M"
 pagesettings:
   page: 
     theme: "page"
+  home:
+    theme: "home"
   

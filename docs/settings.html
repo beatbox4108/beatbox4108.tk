@@ -72,7 +72,7 @@
 </ol>
 </nav>
         <main>
-            <h3>About beatbox4108</h3>
+            <h3>サイトの設定</h3>
             <details>
                 <summary>詳細</summary>
                 <table style="border:none">
@@ -88,17 +88,46 @@
             </details>
             <noscript class="noscript">&#x26a0; Javascriptを有効化してください。一部の機能は正常に動作しなくなる可能性があります。</noscript>
             <article>
-                <p>beatbox4108は、PythonとHTMLが好物な学生です。</p>
-<h3 id="_1">使える言語</h3>
-<ul>
-<li>Python (3系)</li>
-<li>HTML(5)</li>
-<li>CSS(3)</li>
-<li>JavaScript</li>
-<li>Java (勉強中)</li>
-<li>Bash</li>
-<li>C# (Unityの)</li>
-</ul>
+                <p>ここから各種設定を行えます。</p>
+<h2 id="_1">フォントサイズ</h2>
+<p><strong>この設定を適用するとスタイルが崩れる可能性があります。</strong></p>
+<div style="display:flex">
+    <div style="font-size:.5rem" onClick="setfontsize(0.5)">Aaあぁ (x0.5)</div>
+    <div style="font-size:.75rem" onClick="setfontsize(0.75)">Aaあぁ (x0.75)</div>
+    <div style="font-size:1rem" onClick="setfontsize(1)">Aaあぁ (x1)</div>
+    <div style="font-size:1.5rem" onClick="setfontsize(1.5)">Aaあぁ (x1.5)</div>
+    <div style="font-size:2rem" onClick="setfontsize(2)">Aaあぁ (x2)</div>
+    <div style="font-size:3rem" onClick="setfontsize(3)">Aaあぁ (x3)</div>
+</div>
+
+<h2 id="_2">ローカルストレージ</h2>
+<h3 id="_3">利用設定</h3>
+<p>ローカルストレージに保存するデータを管理します。この設定の変更でのデータの削除は行いません。</p>
+<p>現在の設定: <span class="settings localstorage_stat" onLoad="this.textContent=localstoragestat('get')">None</span><br />
+- <button onClick="localstoragestat('accept')">すべて許可する <code>accept</code></button> <strong>デフォルト</strong><br />
+- <button onClick="localstoragestat('settings')">設定の保持のみ許可する <code>settings</code></button><br />
+- <button onClick="localstoragestat('apps')">アプリのデータのみ保持する <code>apps</code></button><br />
+- <button onClick="localstoragestat('minimum')">最低限 <code>minimum</code></button></p>
+<h3 id="_4">削除</h3>
+<p>ローカルストレージに保存されているデータを削除します。<br />
+1. 削除する内容の選択<br />
+<label><input type="checkbox" class="settings localstorage_del_settings">設定</label><br><br />
+<label><input type="checkbox" class="settings localstorage_del_apps">アプリのデータ</label><br></p>
+<ol start="2">
+<li>削除に関する警告 <strong>(必ずお読みください)</strong></li>
+</ol>
+<p><detalis><br />
+    <summary>クリック・タップで展開</summary><br />
+    <div><br />
+    この操作を行ってデータの削除を行った場合、削除されたデータの復元はできません。<br />
+    この操作を行う前に、データのエクスポートを行うことを推奨します。<br />
+    </div><br />
+</details></p>
+<p><label><input type="checkbox" class="settings localstorage_del_accept">上記内容を読み、データの削除に同意します。</label><br></p>
+<ol start="3">
+<li>データの削除 </li>
+</ol>
+<p><button onClick="if(document.querySelector('.settings.localstorage_del_accept').value){localstorage_delete({settings:document.querySelector('.settings.localstorage_del_settings').value,apps:document.querySelector('.settings.localstorage_del_apps').value})}">データの削除を行う</button></p>
             </article>
         </main>
         <footer><div>

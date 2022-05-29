@@ -7,6 +7,45 @@
 <link href="/media/css/main.css" rel="stylesheet">
 <link href="/media/css/rayout.css" rel="stylesheet">
 <link href="/favicon.ico" rel="icon">
+<script src="/media/script/setting.js" defer></script>
+<script src="/media/script/main.js" defer></script>
+        <link href="/media/css/rayout_home.css" rel="stylesheet">
+        <style>
+            main{
+                text-align: center;
+            }
+            .central-header,main>h1{
+                position: relative;
+                font-size: 4em;
+                font-family: "keifont","けいふぉんと","Yu Gothic";
+                -webkit-text-stroke: 1px #000;
+                color: aqua;
+            }
+            .central-header{
+                height: 50vw;
+                padding: 15px;
+                max-height: calc(100vh - 5em);
+                min-height: 35vh;
+                background-image:url(/media/image/toppage/header.jpg);
+                background-size: cover;
+                background-position: bottom;
+            }
+            article{
+                text-align: initial;
+            }
+            .central-header div{
+                font-size: .75em;
+                font-weight: 900;
+                text-align: initial;
+                margin-left: 2em;
+                margin-top: auto;
+                margin-bottom: 5em;
+                text-shadow: #000a 10px 10px;
+            }
+            .central-header h1{
+                position: relative;
+            }
+        </style>
     </head>
     <body>
         <header class="header"><input type="checkbox" title="ヘッダーを開く" class="toggle_check" id="header_toggle">
@@ -18,84 +57,34 @@
     <div><a href="/about.html">About</a></div>
     <div><a href="/links.html">Links</a></div>
 </div></header> 
-        <nav ><input type="checkbox" title="ナビゲーションを開く" class="toggle_check" id="nav_toggle"><label class="toggle_check_label" for="nav_toggle">ナビゲーションを開く</label><br>
-<ul>
-    <li>
-        <a href="https://www.beatbox4108.tk">Home</a>
-     </li>
-     <li>
-        <a href="/about.html">About</a>
-    </li>
-       <li>
-        <a href="/links.html">Links</a>
-    </li>
-    <li>
-        <details>
-            <summary>WebToolBox</summary>
-            <ul>
-                <li>
-                    <a href="https://wtool.beatbox4108.tk">Home</a>
-                </li>
-                <li>
-                    <a href="https://wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
-                </li>
-                <li>
-                    <a href="https://wtool.beatbox4108.tk/textedit.html">Memo</a>
-                </li>
-                <li>
-                    <a href="https://wtool.beatbox4108.tk/tageraser.html">Home</a>
-                </li>
-            </ol>
-        </details>
-    </li>
-    <li>
-        <details>
-            <summary>外部リンク</summary>
-            <ul>
-                <li>
-                    <a href="https://www.github.com/beatbox4108">Github</a>
-                </li>
-                <li>
-                    <a href="https://beatbox4108.hatenablog.com">はてなブログ</a>
-                </li>
-                <li>
-                    <a href="https://qiita.com/beatbox4108">Qiita</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/beatbox4108">Twitter</a>
-                </li>
-            </ol>
-        </details>
-    </li>
-</ol>
-</nav>
         <main>
-            <h3>ようこそ!beatbox4108の部屋へ!</h3>
-            <details>
-                <summary>詳細</summary>
-                <table style="border:none">
-                    <tr>
-                        <th>Published</th>
-                        <td>01-01-2022 00:00</td>
-                    </tr>
-                    <tr>
-                        <th>Updated</th>
-                        <td>NO-DATE</td>
-                    </tr>
-                </table>
-            </details>
+            <h1>beatbox4108の部屋</h1>
+            <div class="central-header"><div>ゆっくりしていってね!!!</div></div>
             <noscript class="noscript">&#x26a0; Javascriptを有効化してください。一部の機能は正常に動作しなくなる可能性があります。</noscript>
             <article>
                 <style>#_1{color:#ffcc77;font-size:3em;-webkit-text-stroke: 1px #222;text-stroke: 1px #222;}</style>
-<p>beatbox4108の部屋は、ただの1人の学生の&hellip; まあいろいろ兼ねたページです。<br />
-それでは&hellip;</p>
-<h2 id="_1">ゆっくりしていってね!!!</h2>
+<p>beatbox4108の部屋は、ただの1人の学生の&hellip; まあいろいろ兼ねたページです。</p>
 <p><a href="/about.html">About beatbox4108</a></p>
             </article>
         </main>
         <footer><div>
     <div class="inline pc_only pagemode_status">現在PCモードで開いています。</div>
     <div class="inline mobile_only pagemode_status">現在モバイルモードで開いています。</div><br>
+    <table>
+        <thead>
+            <th colspan="3">beatbox4108の部屋</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="/">Home</a></td>
+                <td><a href="/about.html">About</a></td>
+                <td><a href="/links.html">Links</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="/settings.html">サイトの設定</a></td>
+            </tr>
+        </tbody>
+    </table>
     <small>&copy;2022 beatbox4108.</small>
 </div></footer>
     </body>

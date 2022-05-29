@@ -124,6 +124,14 @@ details[open]>summary{
     font-size: 1.5em;
     font-weight: bold;
 }
+body *::selection{
+    text-shadow: none;
+    background: #55ff88aa;
+}
+p::selection{
+    text-shadow: 0 0 5px #00b3ffcc;
+    background: none;
+}
 @media screen and (max-width:960px){
     main>details {
         margin-right: 0;
@@ -138,7 +146,7 @@ details[open]>summary{
     }
     .header>.toggle_check_label{
         z-index: 150;
-        position: relative;
+        position: absolute;
         display: block;
         height: 2.5em;
         width: 2.5em;
@@ -146,7 +154,7 @@ details[open]>summary{
         background-clip: padding-box;
         background-size: cover;
         transform: rotateZ(0);
-        margin-left: auto;
+        margin-left: calc(100vw - 4em);
         margin-right: 1em;
         margin-bottom: 0;
         transition-duration: .25s;
@@ -172,10 +180,10 @@ details[open]>summary{
         position: absolute;
         display: block;
         height: 0%;
-        width:calc(100% - 80px);
+        width:calc(100vw - 80px);
         opacity: 0;
         padding: 30px;
-        margin-top: 4em;
+        margin-top: .5em;
         margin-right: auto;
         border: none;
         background-color: initial;
@@ -186,8 +194,12 @@ details[open]>summary{
         transition-timing-function: ease-in-out;
         transition-property: height,opacity,transform,background-color,border;
     }
+    nav>.toggle_check:checked{
+        z-index: 150;
+        box-shadow: #fff;
+    }
     nav>.toggle_check:checked + .toggle_check_label + br + ul{
-        height: 50%;
+        height: calc(100vh - 8em);
         opacity: 1;
         background-color: #8fddffcc;
         border: 1px solid #afeeffcc;
@@ -197,7 +209,7 @@ details[open]>summary{
     .header>.navigation{
         z-index: 100;
         position: absolute;
-        margin-top: -2.35em;
+        margin-top: 0.15em;
         max-height: 2em;
         width: calc(100% - 30px);
         height: 0vh;

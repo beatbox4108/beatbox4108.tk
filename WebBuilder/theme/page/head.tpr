@@ -4,3 +4,5 @@
 <link href="/media/css/main.css" rel="stylesheet">
 <link href="/media/css/rayout.css" rel="stylesheet">
 <link href="/favicon.ico" rel="icon">
+<script src="/media/script/setting.js" defer></script>
+<script src="/media/script/main.js" defer></script>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <+!+ head +!+>
+        <link href="/media/css/rayout_home.css" rel="stylesheet">
+        <style>
+            main{
+                text-align: center;
+            }
+            .central-header,main>h1{
+                position: relative;
+                font-size: 4em;
+                font-family: "keifont","けいふぉんと","Yu Gothic";
+                -webkit-text-stroke: 1px #000;
+                color: aqua;
+            }
+            .central-header{
+                height: 50vw;
+                padding: 15px;
+                max-height: calc(100vh - 5em);
+                min-height: 35vh;
+                background-image:url(/media/image/toppage/header.jpg);
+                background-size: cover;
+                background-position: bottom;
+            }
+            article{
+                text-align: initial;
+            }
+            .central-header div{
+                font-size: .75em;
+                font-weight: 900;
+                text-align: initial;
+                margin-left: 2em;
+                margin-top: auto;
+                margin-bottom: 5em;
+                text-shadow: #000a 10px 10px;
+            }
+            .central-header h1{
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header"><+!+ header +!+></header> 
+        <main>
+            <h1>beatbox4108の部屋</h1>
+            <div class="central-header"><div>ゆっくりしていってね!!!</div></div>
+            <noscript class="noscript">&#x26a0; Javascriptを有効化してください。一部の機能は正常に動作しなくなる可能性があります。</noscript>
+            <article>
+                <!-- buildertext -->
+            </article>
+        </main>
+        <footer><+!+ footer +!+></footer>
+    </body>
+</html>
