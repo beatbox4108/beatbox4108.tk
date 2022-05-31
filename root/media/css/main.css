@@ -16,6 +16,12 @@
     --color-pagemode-mobile-text: violet;
     --color-pagemode-mobile-border: #a4a;
     --color-noscript-text: yellow;
+    --color-selection-highlight: #55ff88aa;
+    --color-mobile-navigation-text: #00aa33;
+    --color-mobile-navigation-checked-text:#55ff88;
+    --color-mobile-navigation-shadow:#fff;
+    --color-mobile-navigation-bg:#8fddffcc;
+    --color-mobile-navigation-border:#afeeffcc;
 }
 
 :root{
@@ -26,9 +32,9 @@
     max-height: 3em;
     overflow: hidden;
     display: flex;
-    border: 2px solid --color-header-border;
+    border: 2px solid var(--color-header-border);
     border-left: none;
-    background: var(--color-header-bg-primary);
+    background: var(--color-header-bg);
     vertical-align: middle;
     position: initial;
 }
@@ -150,7 +156,7 @@ details[open]>summary{
 }
 body *::selection{
     text-shadow: none;
-    background: #55ff88aa;
+    background: var(--color-selection-highlight);
 }
 @media screen and (max-width:960px){
     main>details {
@@ -162,7 +168,7 @@ body *::selection{
     .toggle_check_label{
         display: inline;
         font-weight: bold;
-        color: #00aa33;
+        color: var(--color-mobile-navigation-text);
     }
     .header>.toggle_check_label{
         z-index: 150;
@@ -182,7 +188,7 @@ body *::selection{
         transition-property: transform,margin-bottom;
     }
     .toggle_check:checked+.toggle_check_label{
-        color: #55ff88;
+        color: var(--color-mobile-navigation-checked-text);
     }
     .header>.toggle_check:checked+.toggle_check_label{
         transform: rotateZ(90deg);
@@ -216,13 +222,13 @@ body *::selection{
     }
     nav>.toggle_check:checked{
         z-index: 150;
-        box-shadow: #fff;
+        box-shadow: var(--color-mobile-navigation-shadow);
     }
     nav>.toggle_check:checked + .toggle_check_label + br + ul{
         height: calc(100vh - 8em);
         opacity: 1;
-        background-color: #8fddffcc;
-        border: 1px solid #afeeffcc;
+        background-color: var(--color-mobile-navigation-bg);
+        border: 1px solid var(--color-mobile-navigation-border);
         transform: translateY(0);
         overflow: hidden;
     }
