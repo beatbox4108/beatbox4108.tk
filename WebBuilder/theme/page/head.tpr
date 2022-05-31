@@ -6,3 +6,29 @@
 <link href="/favicon.ico" rel="icon">
 <script src="/media/script/setting.js" defer></script>
 <script src="/media/script/main.js" defer></script>
+<!--OG-->
+<meta property="og:url"           content="https://beatbox4108.tk" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="beatbox4108の部屋" />
+  <meta property="og:description"   content="beatbox4108のいろいろ兼ねたページ。" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+<!--Twitter web API-->
+<script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+  
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+<!--Facebook web API-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v14.0" nonce="ShsglbXK"></script>
