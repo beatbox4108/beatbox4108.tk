@@ -2,4 +2,4 @@
 /docs/media/temprate
 /test.ps1
 /test.sh
-/tasks.json
+/.vscode/tasks.json
