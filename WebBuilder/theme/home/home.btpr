@@ -2,6 +2,7 @@
 <html>
     <head>
         <+!+ head +!+>
+        <title>beatbox4108の部屋</title>
         <link href="/media/css/rayout_home.css" rel="stylesheet">
         <style>
             main{
