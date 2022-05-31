@@ -10,3 +10,4 @@ pageplace:
   footer: "./footer.tpr"
   head: "./head.tpr"
   navigation: "./nav.tpr"
+  aside: "./aside.tpr"
