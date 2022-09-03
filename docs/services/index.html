@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>ようこそ!beatbox4108の部屋へ! / beatbox4108の部屋</title>
+        <title>Services / beatbox4108の部屋</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="/media/css/main.css" rel="stylesheet">
@@ -36,44 +36,6 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v14.0" nonce="ShsglbXK"></script>
 
-        <title>beatbox4108の部屋</title>
-        <link href="/media/css/rayout_home.css" rel="stylesheet">
-        <style>
-            main{
-                text-align: center;
-            }
-            .central-header,main>h1{
-                position: relative;
-                font-size: 4em;
-                font-family: "keifont","けいふぉんと","Yu Gothic";
-                -webkit-text-stroke: 1px #000;
-                color: aqua;
-            }
-            .central-header{
-                height: 50vw;
-                padding: 15px;
-                max-height: calc(100vh - 5em);
-                min-height: 35vh;
-                background-image:url(/media/image/toppage/header.jpg);
-                background-size: cover;
-                background-position: bottom;
-            }
-            article{
-                text-align: initial;
-            }
-            .central-header div{
-                font-size: .75em;
-                font-weight: 900;
-                text-align: initial;
-                margin-left: 2em;
-                margin-top: auto;
-                margin-bottom: 5em;
-                text-shadow: #000a 10px 10px;
-            }
-            .central-header h1{
-                position: relative;
-            }
-        </style>
     </head>
     <body>
         <header class="header"><input type="checkbox" title="ヘッダーを開く" class="toggle_check" id="header_toggle">
@@ -85,16 +47,126 @@
     <div><a href="/about.html">About</a></div>
     <div><a href="/links.html">Links</a></div>
 </div></header> 
+        <nav ><input type="checkbox" title="ナビゲーションを開く" class="toggle_check" id="nav_toggle"><label class="toggle_check_label" for="nav_toggle">ナビゲーションを開く</label><br>
+<ul>
+    <li>
+        <a href="https://www.beatbox4108.tk">Home</a>
+     </li>
+     <li>
+        <a href="/about.html">About</a>
+    </li>
+       <li>
+        <a href="/links.html">Links</a>
+    </li>
+    <li>
+        <details>
+            <summary>WebToolBox</summary>
+            <ul>
+                <li>
+                    <a href="https://wtool.beatbox4108.tk">Home</a>
+                </li>
+                <li>
+                    <a href="https://wtool.beatbox4108.tk/mwc.html">Microwave Wattage Transducer</a>
+                </li>
+                <li>
+                    <a href="https://wtool.beatbox4108.tk/textedit.html">Memo</a>
+                </li>
+                <li>
+                    <a href="https://wtool.beatbox4108.tk/tageraser.html">Home</a>
+                </li>
+            </ol>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>外部リンク</summary>
+            <ul>
+                <li>
+                    <a href="https://www.github.com/beatbox4108">Github</a>
+                </li>
+                <li>
+                    <a href="https://beatbox4108.hatenablog.com">はてなブログ</a>
+                </li>
+                <li>
+                    <a href="https://qiita.com/beatbox4108">Qiita</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/beatbox4108">Twitter</a>
+                </li>
+            </ol>
+        </details>
+    </li>
+</ol>
+</nav>
         <main>
-            <h1>beatbox4108の部屋</h1>
-            <div class="central-header"><div>ゆっくりしていってね!!!</div></div>
+            <h3>Services</h3>
+            <details>
+                <summary>詳細</summary>
+                <table style="border:none">
+                    <tr>
+                        <th>Published</th>
+                        <td>01-01-2022 00:00</td>
+                    </tr>
+                    <tr>
+                        <th>Updated</th>
+                        <td>NO-DATE</td>
+                    </tr>
+                </table>
+            </details>
             <noscript class="noscript">&#x26a0; Javascriptを有効化してください。一部の機能は正常に動作しなくなる可能性があります。</noscript>
             <article>
-                <style>#_1{color:#ffcc77;font-size:3em;-webkit-text-stroke: 1px #222;text-stroke: 1px #222;}</style>
-<p>beatbox4108の部屋は、ただの1人の学生の&hellip; まあいろいろ兼ねたページです。</p>
-<p><a href="/about.html">About beatbox4108</a></p>
+                <h1 id="beatbox4108">beatbox4108のサービス、プロジェクト</h1>
+<style>
+    #card{
+        display:flex
+    }
+    #card>.card{
+        display: block;
+        width: 48%;
+        max-width:50em;
+        min-height:10em;
+
+        border: 1px solid #99aaff;
+    }
+    #card>.card>table td{
+        text-align:center;
+    }
+</style>
+<div id="card">
+    <div class="card">
+        <h2>Manaita extended</h2>
+        <table>
+            <tr><th>開発状況</th><td>開発停止 (v0.2.38)</td></tr>
+            <tr><th>ソース管理</th><td><abbr title="ソース管理はされていません">-</abbr></td></tr>
+            <tr><th>翻訳</th><td><abbr title="ほとんどの翻訳はプロジェクトチームによって行われています。">-</abbr></td></tr>
+            <tr><th>配布URL</th><td><ul><li><a href="https://www.curseforge.com/minecraft/mc-mods/manaita-extended/">curseforge</a></li></ul></td></tr>
+        </table>
+        <p>
+            Minecraft 1.16 のForgeに対応しているまな板Modです。
+            MCreatorによって作成されています。
+        </p>
+    </div>
+    <div class="card">
+        <h2>PlayQuick</h2>
+        <table>
+            <tr><th>開発状況</th><td>開発中 <a href="https://pypi.org/project/PlayQuick/#history"><abbr title="このプロジェクトは継続的な開発中なので一部の情報は古い場合があります。このリンクをクリックして詳細を確認することをお勧めします。">(v0.1.0.post0)</abbr></a></td></tr>
+            <tr><th>ソース管理</th><td><abbr title="Github"><a href="https://www.github.com/beatbox4108/PlayQuick">PlayQuick @beatbox4108</a></abbr></td></tr>
+            <tr><th>翻訳</th><td><abbr title="Crowdin"><a href="https://www.crowdin.com/project/PlayQuick">PlayQuick @beatbox4108</a></abbr></td></tr>
+            <tr><th>配布URL</th><td><ul><li><a href="https://pypi.org/project/PlayQuick/">PyPI</a></li><li><a href="https://github.com/beatbox4108/PlayQuick/releases">Github</a></li></ul></td></tr>
+        </table>
+        <p>
+            クロスプラットフォーム対応を目指すオープンソースのコンソール型メディアプレイヤーです。
+        </p>
+    </div>
+
+</div>
             </article>
         </main>
+        <aside><a class="twitter-timeline"
+    style="width:max-content;height: min-content;"
+    href="https://twitter.com/beatbox4108"
+    data-height="500">
+Tweets by @beatbox4108</a></aside>
         <footer><div>
     <!--<section style="vertical-align: middle;">
         <h3>シェア・フォローお願いします！</h3>
